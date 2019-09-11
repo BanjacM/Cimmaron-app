@@ -1,0 +1,58 @@
+body {
+    background-color: #eee;
+    color: 666;
+}
+
+.medium-size {
+    font-size: 1.5em !important;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.p-5 {
+    padding: 5px !important;
+}
+
+.shadow {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.06), 0 3px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+.transparent {
+    background-color: transparent !important;
+}
+
+.table-holder {
+    max-height: 195px;
+    overflow-x: auto;
+    overflow-y: auto;
+    display: block;
+}
+
+.ui.form .field {
+    margin: 0 0 0.5em;
+}
+
+.ui.form .field>label {
+    margin: 0;
+    color: #666;
+    font-size: .85em;
+}
+
+.ui.selection.dropdown {
+    min-width: unset;
+}
+
+.ui.right.input input {
+    text-align: end;
+    padding-right: 2px;
+}
+
+.ui.labeled.input>.label:not(.corner) {
+    min-width: 34px;
+}
+
+label[for=calendar] {
+    width: 36px;
+}
